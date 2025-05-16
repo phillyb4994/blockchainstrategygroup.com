@@ -4,123 +4,133 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Blockchain Strategy Group</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #0f0f1a;
-      color: #ffffff;
+      padding: 0;
+    }
+    body {
+      background-color: #fdfdfd;
+      color: #111;
+      line-height: 1.6;
     }
     header {
-      background-color: #1a1a2e;
-      padding: 20px;
+      padding: 30px 20px;
       text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    header img {
+      max-width: 100px;
+      margin-bottom: 10px;
     }
     header h1 {
-      margin: 0;
-      font-size: 2.5em;
+      font-size: 2rem;
+      font-weight: 700;
     }
     nav {
-      background-color: #16213e;
-      display: flex;
-      justify-content: center;
+      background: #0a1f62;
+      text-align: center;
       padding: 10px 0;
     }
     nav a {
-      color: #ffffff;
+      color: #fff;
       margin: 0 15px;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 500;
     }
     nav a:hover {
       text-decoration: underline;
     }
-    main {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .cta {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 10px 20px;
-      background-color: #e94560;
-      color: #ffffff;
-      text-decoration: none;
+    .btn {
+      background-color: #0a1f62;
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
       border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-block;
+      margin-top: 10px;
     }
-    .service {
-      margin-bottom: 30px;
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .content {
+      max-width: 800px;
+      margin: auto;
+      text-align: left;
     }
     footer {
-      background-color: #1a1a2e;
-      text-align: center;
+      font-size: 0.85rem;
       padding: 20px;
-      font-size: 0.9em;
+      text-align: center;
+      color: #666;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 20px;
     }
   </style>
 </head>
 <body>
   <header>
+    <img src="logo-placeholder.png" alt="Blockchain Strategy Group Logo">
     <h1>Blockchain Strategy Group</h1>
-    <p>Securing Your Digital Future</p>
   </header>
 
   <nav>
-    <a href="#services">Services</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="consulting.html">Consulting</a>
+    <a href="wallet-setup.html">Wallet Setup</a>
+    <a href="security.html">Security</a>
+    <a href="education.html">Education</a>
+    <a href="community.html">Community</a>
   </nav>
 
-  <main>
-    <section id="hero">
-      <h2>Expert Blockchain Security & Cold Wallet Solutions</h2>
-      <p>We help individuals and businesses secure digital assets through cold storage, consulting, and education.</p>
-      <a href="#contact" class="cta">Schedule a Consultation</a>
-    </section>
+  <section>
+    <h2>Welcome to Blockchain Strategy Group</h2>
+    <div class="content">
+      <p>We guide individuals and businesses through secure blockchain integration, crypto security, and cold wallet setup. Explore our services to see how we can help you make smarter crypto decisions.</p>
+      <p><a class="btn" href="#contact">Book a Consultation</a></p>
+    </div>
+  </section>
 
-    <section id="services">
-      <h2>Our Services</h2>
-      <div class="service">
-        <h3>Blockchain Consulting & Strategy</h3>
-        <p>Tailored blockchain strategies to help your business adopt decentralized technologies efficiently and securely.</p>
-      </div>
-      <div class="service">
-        <h3>Smart Contract Development</h3>
-        <p>Build and deploy secure, efficient smart contracts for your business or project.</p>
-      </div>
-      <div class="service">
-        <h3>Web3 Integration & Training</h3>
-        <p>Seamless integration of Web3 tools into your business stack, plus hands-on training for your team.</p>
-      </div>
-      <div class="service">
-        <h3>Cold Storage Wallet Setup</h3>
-        <p>We guide you through secure setup of hardware wallets like Ledger, Trezor, and Coldcard. Includes seed phrase protection and multisig options.</p>
-      </div>
-      <div class="service">
-        <h3>Blockchain Security Consulting</h3>
-        <p>Risk assessments, wallet architecture design, and custom security strategies for individuals and organizations.</p>
-      </div>
-      <div class="service">
-        <h3>Workshops & Training</h3>
-        <p>Custom sessions on blockchain fundamentals, wallet security, and best practices for teams and individuals.</p>
-      </div>
-    </section>
+  <section>
+    <h2>What We Do</h2>
+    <div class="content">
+      <ul>
+        <li><strong><a href="consulting.html">Consulting</a></strong> – Expert guidance on blockchain and cryptocurrency</li>
+        <li><strong><a href="wallet-setup.html">Wallet Setup</a></strong> – Secure cold storage cryptocurrency solutions</li>
+        <li><strong><a href="security.html">Security-Focused Services</a></strong> – Wallet security workshops, multisig training, and security audits</li>
+        <li><strong><a href="education.html">Tax & Compliance Guidance</a></strong> – Crypto tax basics, transaction tracking templates, CoinTracker integration</li>
+        <li><strong><a href="community.html">Community & Web3 Education</a></strong> – Private community, AMAs, and NFT/DeFi learning sessions</li>
+      </ul>
+    </div>
+  </section>
 
-    <section id="about">
-      <h2>About Us</h2>
-      <p>Blockchain Strategy Group is a Miami-based consultancy specializing in secure blockchain adoption. Our mission is to empower clients with the tools and knowledge to safely navigate the decentralized world. We are a team of blockchain experts dedicated to helping businesses harness the power of decentralized technology.</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:info@blockchainstrategygroup.com">info@blockchainstrategygroup.com</a></p>
-    </section>
-  </main>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form style="max-width: 500px; margin: auto;">
+      <input type="text" name="name" placeholder="Name" required style="width:100%; padding:10px; margin-bottom:10px;">
+      <input type="email" name="email" placeholder="Email" required style="width:100%; padding:10px; margin-bottom:10px;">
+      <textarea name="message" placeholder="Message" rows="5" required style="width:100%; padding:10px;"></textarea>
+      <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Book a Consultation</button>
+    </form>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Blockchain Strategy Group. All rights reserved.</p>
+    &copy; 2025 Blockchain Strategy Group. All rights reserved. This is not financial or investment advice.
   </footer>
 </body>
 </html>
