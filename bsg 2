@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blockchain Strategy Group</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f1a;
+      color: #ffffff;
+    }
+    header {
+      background-color: #1a1a2e;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #16213e;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #ffffff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #e94560;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .service {
+      margin-bottom: 30px;
+    }
+    footer {
+      background-color: #1a1a2e;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Blockchain Strategy Group</h1>
+    <p>Securing Your Digital Future</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="hero">
+      <h2>Expert Blockchain Security & Cold Wallet Solutions</h2>
+      <p>We help individuals and businesses secure digital assets through cold storage, consulting, and education.</p>
+      <a href="#contact" class="cta">Schedule a Consultation</a>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="service">
+        <h3>Blockchain Consulting & Strategy</h3>
+        <p>Tailored blockchain strategies to help your business adopt decentralized technologies efficiently and securely.</p>
+      </div>
+      <div class="service">
+        <h3>Smart Contract Development</h3>
+        <p>Build and deploy secure, efficient smart contracts for your business or project.</p>
+      </div>
+      <div class="service">
+        <h3>Web3 Integration & Training</h3>
+        <p>Seamless integration of Web3 tools into your business stack, plus hands-on training for your team.</p>
+      </div>
+      <div class="service">
+        <h3>Cold Storage Wallet Setup</h3>
+        <p>We guide you through secure setup of hardware wallets like Ledger, Trezor, and Coldcard. Includes seed phrase protection and multisig options.</p>
+      </div>
+      <div class="service">
+        <h3>Blockchain Security Consulting</h3>
+        <p>Risk assessments, wallet architecture design, and custom security strategies for individuals and organizations.</p>
+      </div>
+      <div class="service">
+        <h3>Workshops & Training</h3>
+        <p>Custom sessions on blockchain fundamentals, wallet security, and best practices for teams and individuals.</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Blockchain Strategy Group is a Miami-based consultancy specializing in secure blockchain adoption. Our mission is to empower clients with the tools and knowledge to safely navigate the decentralized world. We are a team of blockchain experts dedicated to helping businesses harness the power of decentralized technology.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:info@blockchainstrategygroup.com">info@blockchainstrategygroup.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Blockchain Strategy Group. All rights reserved.</p>
+  </footer>
+</body>
+</html>
