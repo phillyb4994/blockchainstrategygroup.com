@@ -85,7 +85,7 @@
 </head>
 <body>
   <header>
-    <img src="logo-placeholder.png" alt="Blockchain Strategy Group Logo">
+    <img src="logo.png" alt="Blockchain Strategy Group Logo" />
     <h1>Blockchain Strategy Group</h1>
   </header>
 
@@ -134,3 +134,4 @@
   </footer>
 </body>
 </html>
+
