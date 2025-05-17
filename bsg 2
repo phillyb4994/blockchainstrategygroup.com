@@ -77,7 +77,7 @@
 
 <body>
   <header>
-    <img src="assets/logo.svg.png" alt="Blockchain Strategy Group Logo">
+    <img src="logo.svg.png" alt="Blockchain Strategy Group Logo">
     <h1>Your Guide to Smarter Crypto Decisions</h1>
     <a href="#contact" class="cta-button">Book a Consultation</a>
   </header>
@@ -86,27 +86,27 @@
     <h2>What We Do</h2>
     <div class="features">
       <div>
-        <img src="assets/consulting.svg.png" alt="Consulting">
+        <img src="consulting.svg.png" alt="Consulting">
         <h3>Consulting</h3>
         <p>Expert guidance on blockchain and cryptocurrency.</p>
       </div>
       <div>
-        <img src="assets/wallet-setup.svg.png" alt="Wallet Setup">
+        <img src="wallet-setup.svg.png" alt="Wallet Setup">
         <h3>Wallet Setup</h3>
         <p>Safe and secure cryptocurrency storage solutions.</p>
       </div>
       <div>
-        <img src="assets/security-focused.svg.png" alt="Security Services">
+        <img src="security-focused.svg.png" alt="Security Services">
         <h3>Security Services</h3>
         <p>Workshops and audits on wallet security and phishing prevention.</p>
       </div>
       <div>
-        <img src="assets/crypto-tax.svg.png" alt="Crypto Tax">
+        <img src="crypto-tax.svg.png" alt="Crypto Tax">
         <h3>Tax & Compliance</h3>
         <p>Education and tools for reporting crypto activity, with partner discounts.</p>
       </div>
       <div>
-        <img src="assets/community.svg.png" alt="Community">
+        <img src="community.svg.png" alt="Community">
         <h3>Community</h3>
         <p>Private Discord group, AMAs, and peer education with Web3 leaders.</p>
       </div>
@@ -119,3 +119,5 @@
 </body>
 
 </html>
+
+
