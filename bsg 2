@@ -1,138 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Blockchain Strategy Group</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
   <style>
-    * {
-      box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
     body {
-      background-color: #fdfdfd;
-      color: #111;
-      line-height: 1.6;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #1e1e2f;
     }
+
     header {
-      padding: 30px 20px;
+      background-color: #ffffff;
       text-align: center;
+      padding: 40px 20px 20px;
       border-bottom: 1px solid #ddd;
     }
+
     header img {
-      max-width: 100px;
-      margin-bottom: 10px;
+      max-height: 80px;
     }
-    header h1 {
-      font-size: 2rem;
-      font-weight: 700;
+
+    h1 {
+      margin-top: 20px;
+      font-size: 2.5em;
     }
-    nav {
-      background: #0a1f62;
-      text-align: center;
-      padding: 10px 0;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
+
+    .cta-button {
+      background-color: #1d2b64;
+      color: white;
+      padding: 15px 30px;
       text-decoration: none;
-      font-weight: 500;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .btn {
-      background-color: #0a1f62;
-      color: #fff;
-      padding: 12px 24px;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: 600;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 20px;
       display: inline-block;
-      margin-top: 10px;
     }
-    section {
-      padding: 50px 20px;
-      text-align: center;
-    }
-    h2 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-    }
-    .content {
-      max-width: 800px;
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
       margin: auto;
-      text-align: left;
     }
-    footer {
-      font-size: 0.85rem;
-      padding: 20px;
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
       text-align: center;
-      color: #666;
     }
-    ul {
-      list-style: none;
-      padding: 0;
+
+    .features img {
+      height: 60px;
+      margin-bottom: 15px;
     }
-    li {
-      margin-bottom: 20px;
+
+    h2 {
+      font-size: 2em;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #ffffff;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #888;
+      border-top: 1px solid #ddd;
     }
   </style>
 </head>
+
 <body>
   <header>
-    <img src="logo.png" alt="Blockchain Strategy Group Logo" />
-    <h1>Blockchain Strategy Group</h1>
+    <img src="logo.svg.jpg" alt="Blockchain Strategy Group Logo">
+    <h1>Your Guide to Smarter Crypto Decisions</h1>
+    <a href="#contact" class="cta-button">Book a Consultation</a>
   </header>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="consulting.html">Consulting</a>
-    <a href="wallet-setup.html">Wallet Setup</a>
-    <a href="security.html">Security</a>
-    <a href="education.html">Education</a>
-    <a href="community.html">Community</a>
-  </nav>
-
-  <section>
-    <h2>Your Guide to Smarter Crypto Decisions</h2>
-    <div class="content">
-      <p>We guide individuals and businesses through secure blockchain integration, crypto security, and cold wallet setup. Explore our services to see how we can help you make smarter crypto decisions.</p>
-      <p><a class="btn" href="#contact">Book a Consultation</a></p>
-    </div>
-  </section>
-
-  <section>
+  <section class="section">
     <h2>What We Do</h2>
-    <div class="content">
-      <ul>
-        <li><strong><a href="consulting.html">Consulting</a></strong> – Expert guidance on blockchain and cryptocurrency</li>
-        <li><strong><a href="wallet-setup.html">Wallet Setup</a></strong> – Secure cold storage cryptocurrency solutions</li>
-        <li><strong><a href="security.html">Security-Focused Services</a></strong> – Wallet security workshops, multisig training, and security audits</li>
-        <li><strong><a href="education.html">Crypto Tax Platforms</a></strong> – Crypto tax applications, transaction tracking templates, CoinTracker integration</li>
-        <li><strong><a href="community.html">Community & Web3 Education</a></strong> – Private community, AMAs, and NFT/DeFi learning sessions</li>
-      </ul>
+    <div class="features">
+      <div>
+        <img src="Consulting.svg.png" alt="Consulting">
+        <h3>Consulting</h3>
+        <p>Expert guidance on blockchain and cryptocurrency.</p>
+      </div>
+      <div>
+        <img src="wallet setup.svg.png" alt="Wallet Setup">
+        <h3>Wallet Setup</h3>
+        <p>Safe and secure cryptocurrency storage solutions.</p>
+      </div>
+      <div>
+        <img src="security-focused.svg.png" alt="Security-Focused">
+        <h3>Security Services</h3>
+        <p>Workshops and audits on wallet security and phishing prevention.</p>
+      </div>
+      <div>
+        <img src="crypto tax.svg.png" alt="Crypto Tax">
+        <h3>Tax & Compliance</h3>
+        <p>Education and tools for reporting crypto activity, with partner discounts.</p>
+      </div>
+      <div>
+        <img src="community.svg.png" alt="Community">
+        <h3>Community</h3>
+        <p>Private Discord group, AMAs, and peer education with Web3 leaders.</p>
+      </div>
     </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form style="max-width: 500px; margin: auto;">
-      <input type="text" name="name" placeholder="Name" required style="width:100%; padding:10px; margin-bottom:10px;">
-      <input type="email" name="email" placeholder="Email" required style="width:100%; padding:10px; margin-bottom:10px;">
-      <textarea name="message" placeholder="Message" rows="5" required style="width:100%; padding:10px;"></textarea>
-      <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Book a Consultation</button>
-    </form>
   </section>
 
   <footer>
-    &copy; 2025 Blockchain Strategy Group. All rights reserved. This is not financial or investment advice. We do not manage or make trades on behalf of our clients. 
+    <p>&copy; 2025 Blockchain Strategy Group. All rights reserved.</p>
   </footer>
 </body>
+
 </html>
-
-
