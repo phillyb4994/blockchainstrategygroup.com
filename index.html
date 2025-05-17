@@ -21,7 +21,7 @@
     }
 
     header img {
-      max-height: 120px;
+      max-height: 160px;
     }
 
     h1 {
@@ -54,10 +54,16 @@
     }
 
     .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
       text-align: center;
+    }
+
+    .features div {
+      flex: 1 1 200px;
+      max-width: 220px;
     }
 
     .features img {
@@ -96,7 +102,7 @@
       <div>
         <img src="consulting.png" alt="Consulting">
         <h3>Consulting</h3>
-        <p>Expert guidance on blockchain and cryptocurrency.</p>
+        <p>Guidance on blockchain and cryptocurrency on how the technology works.</p>
       </div>
       <div>
         <img src="wallet-setup.png" alt="Wallet Setup">
@@ -127,5 +133,3 @@
 </body>
 
 </html>
-
-
