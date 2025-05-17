@@ -5,7 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Blockchain Strategy Group</title>
-  <link rel="stylesheet" href="style.css" />
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -78,7 +77,7 @@
 
 <body>
   <header>
-    <img src="assets/logo.svg.jpg" alt="Logo">
+    <img src="assets/logo.svg.png" alt="Blockchain Strategy Group Logo">
     <h1>Your Guide to Smarter Crypto Decisions</h1>
     <a href="#contact" class="cta-button">Book a Consultation</a>
   </header>
@@ -87,22 +86,22 @@
     <h2>What We Do</h2>
     <div class="features">
       <div>
-        <img src="assets/Consulting.svg.png" alt="Consulting">
+        <img src="assets/consulting.svg.png" alt="Consulting">
         <h3>Consulting</h3>
         <p>Expert guidance on blockchain and cryptocurrency.</p>
       </div>
       <div>
-        <img 	src="assets/wallet setup.svg.png" alt="Wallet Setup">
+        <img src="assets/wallet-setup.svg.png" alt="Wallet Setup">
         <h3>Wallet Setup</h3>
         <p>Safe and secure cryptocurrency storage solutions.</p>
       </div>
       <div>
-        <img src="assets/security-focused.svg.png" alt="Security-Focused">
+        <img src="assets/security-focused.svg.png" alt="Security Services">
         <h3>Security Services</h3>
         <p>Workshops and audits on wallet security and phishing prevention.</p>
       </div>
       <div>
-        <img 	src="assets/crypto tax.svg.png" alt="Crypto Tax">
+        <img src="assets/crypto-tax.svg.png" alt="Crypto Tax">
         <h3>Tax & Compliance</h3>
         <p>Education and tools for reporting crypto activity, with partner discounts.</p>
       </div>
