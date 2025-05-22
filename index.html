@@ -2,123 +2,127 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blockchain Strategy Group</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
       margin: 0;
+      font-family: 'Segoe UI', sans-serif;
       background-color: #f5f7fa;
       color: #1e1e2f;
     }
 
     header {
-      background-color: #ffffff;
+      background: #0d1b2a;
+      color: white;
       text-align: center;
-      padding: 30px 20px 20px;
-      border-bottom: 1px solid #ddd;
+      padding: 40px 20px;
     }
 
     header img {
-      max-width: 100%;
-      height: auto;
-      max-height: 140px;
+      max-width: 220px;
+      margin-bottom: 20px;
     }
 
-    nav {
-      background-color: #ffffff;
-      text-align: center;
-      padding: 10px 0;
-      border-top: 1px solid #ddd;
-      border-bottom: 1px solid #ddd;
+    header h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
     }
 
-    nav a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: #1e1e2f;
-      font-weight: 500;
-      font-size: 1em;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    h1 {
-      margin-top: 20px;
-      font-size: 1.8em;
-    }
-
-    .description {
+    header p {
+      max-width: 640px;
+      margin: auto;
       font-size: 1.1em;
-      color: #444;
-      max-width: 600px;
-      margin: 10px auto 30px;
+      color: #e0e0e0;
     }
 
     .cta-button {
-      background-color: #1d2b64;
-      color: white;
-      padding: 18px 36px;
-      text-decoration: none;
-      border-radius: 10px;
-      font-size: 1.1em;
-      font-weight: bold;
       display: inline-block;
-      margin-bottom: 20px;
+      margin-top: 25px;
+      padding: 14px 28px;
+      background-color: #13294b;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 1.05em;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .features-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #0d1b2a;
+      padding: 40px 20px 60px;
+      gap: 20px;
+    }
+
+    .feature-box {
+      background-color: #13294b;
+      color: white;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 260px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .feature-box h3 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    .feature-box p {
+      font-size: 0.95em;
+      color: #ddd;
     }
 
     .section {
       padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
+      background: #ffffff;
+      text-align: center;
     }
 
-    .features {
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 30px;
+      color: #1e1e2f;
+    }
+
+    .icons {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 40px;
-      text-align: center;
     }
 
-    .features div {
-      flex: 1 1 200px;
-      max-width: 220px;
+    .icons div {
+      max-width: 200px;
     }
 
-    .features img {
-      height: 60px;
-      margin-bottom: 15px;
+    .icons img {
+      height: 48px;
+      margin-bottom: 10px;
     }
 
-    h2 {
-      font-size: 2em;
-      text-align: center;
-      margin-bottom: 40px;
+    .icons h3 {
+      margin: 10px 0 5px;
+      font-size: 1.1em;
     }
 
-    footer {
-      text-align: center;
-      background-color: #ffffff;
-      padding: 20px;
-      font-size: 0.9em;
-      color: #888;
-      border-top: 1px solid #ddd;
+    .icons p {
+      font-size: 0.95em;
+      color: #444;
     }
 
-    @media (max-width: 600px) {
-      .cta-button {
-        width: 80%;
-        padding: 14px;
-        font-size: 1em;
+    @media (max-width: 768px) {
+      .feature-box {
+        max-width: 90%;
       }
 
-      nav a {
-        display: inline-block;
-        margin: 8px;
+      .icons {
+        flex-direction: column;
+        align-items: center;
       }
     }
   </style>
@@ -128,46 +132,52 @@
   <header>
     <img src="logo.png" alt="Blockchain Strategy Group Logo">
     <h1>Your Guide to Smarter Crypto Decisions</h1>
-    <p class="description">We help you navigate Web3 and protect your crypto assets with personalized wallet consulting, security guidance, and tax support. Whether you're new to crypto or looking to level up your cold storage game, we've got your back.</p>
+    <p>We help you navigate Web3 and protect your crypto assets with personalized wallet consulting, security guidance, and tax support. Whether you're new to crypto or looking to level up your cold storage game, we've got your back.</p>
     <a href="book.html" class="cta-button">Book a Consultation</a>
   </header>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="consulting.html">Consulting</a>
-    <a href="wallet-setup.html">Wallet Setup</a>
-    <a href="security-services.html">Security</a>
-    <a href="tax-compliance.html">Tax</a>
-    <a href="community.html">Community</a>
-  </nav>
+  <div class="features-grid">
+    <div class="feature-box">
+      <h3>Wallet Access Gone</h3>
+      <p>Too many people lose access due to weak backup habits. We help fix that.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Tricked by Scammers</h3>
+      <p>Rug pulls and phishing attempts exploit poor security habits. We educate you.</p>
+    </div>
+    <div class="feature-box">
+      <h3>On-Ramp Confusion?</h3>
+      <p>New crypto users struggle to separate noise from real opportunities. We guide you.</p>
+    </div>
+  </div>
 
   <section class="section">
     <h2>What We Do</h2>
-    <div class="features">
+    <div class="icons">
       <div>
-        <img src="consulting.png" alt="Consulting">
+        <img src="consulting.png" alt="Consulting Icon">
         <h3>Consulting</h3>
         <p>Expert guidance on blockchain and cryptocurrency.</p>
       </div>
       <div>
-        <img src="wallet-setup.png" alt="Wallet Setup">
+        <img src="wallet-setup.png" alt="Wallet Icon">
         <h3>Wallet Setup</h3>
         <p>Safe and secure cryptocurrency storage solutions.</p>
       </div>
       <div>
-        <img src="security-focused.png" alt="Security Services">
+        <img src="security-focused.png" alt="Security Icon">
         <h3>Security Services</h3>
         <p>Workshops and audits on wallet security and phishing prevention.</p>
       </div>
       <div>
-        <img src="crypto-tax.png" alt="Crypto Tax">
+        <img src="crypto-tax.png" alt="Tax Icon">
         <h3>Tax & Compliance</h3>
-        <p>Education and tools for reporting crypto activity, with partner discounts.</p>
+        <p>Education and tools for tracking crypto activity.</p>
       </div>
       <div>
-        <img src="community.png" alt="Community">
+        <img src="community.png" alt="Community Icon">
         <h3>Community</h3>
-        <p>Private Discord group, AMAs, and peer education with Web3 leaders.</p>
+        <p>Private Discord group, AMAs, and asset discussions with Web3 leaders.</p>
       </div>
     </div>
   </section>
