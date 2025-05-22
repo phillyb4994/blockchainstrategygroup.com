@@ -1,157 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blockchain Strategy Group</title>
   <style>
     body {
-      margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
       color: #1a1a1a;
+      background-color: #ffffff;
     }
     header {
       text-align: center;
-      padding: 40px 20px;
+      padding: 40px 20px 20px;
     }
     header img {
-      max-width: 200px;
+      max-width: 220px;
       height: auto;
     }
     h1 {
-      font-size: 2em;
-      margin-top: 20px;
-      color: #1a1a1a;
+      font-size: 2.5em;
+      margin: 20px 0 10px;
     }
-    p.subtitle {
-      max-width: 700px;
-      margin: 10px auto 30px;
-      font-size: 1em;
-      line-height: 1.5;
-      color: #333;
+    .subtitle {
+      max-width: 750px;
+      margin: 0 auto 30px;
+      font-size: 1.1em;
+      color: #444;
     }
     .cta {
       background-color: #0f1a3c;
-      color: #ffffff;
-      padding: 15px 30px;
-      font-weight: bold;
+      color: #fff;
+      padding: 15px 25px;
+      font-size: 1em;
       text-decoration: none;
       border-radius: 5px;
       display: inline-block;
-      margin-bottom: 40px;
+      margin: 20px auto;
     }
-    .banner-section {
-      background-color: #ffffff;
+    .highlight-section {
       display: flex;
       justify-content: center;
+      gap: 20px;
       flex-wrap: wrap;
-      padding: 40px 20px;
+      margin: 40px auto;
+      max-width: 1000px;
     }
-    .banner {
-      border: none;
-      background: #0f1a3c;
-      color: #ffffff;
-      padding: 30px;
-      margin: 10px;
+    .highlight {
+      background-color: #0f1a3c;
+      color: white;
+      padding: 20px;
       border-radius: 10px;
-      width: 280px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      flex: 1;
+      min-width: 260px;
+      max-width: 300px;
+      text-align: left;
     }
-    .banner h3 {
-      margin-top: 10px;
-      color: #ffffff;
+    .highlight h3 {
+      font-size: 1.1em;
+      margin: 10px 0;
     }
-    .banner p {
-      color: #e0e0e0;
+    .highlight p {
+      font-size: 0.95em;
+      color: #dcdcdc;
     }
-    .banner img {
-      height: 50px;
-      margin-bottom: 15px;
-    }
-    .section-title {
+    .what-we-do {
+      padding: 40px 20px;
       text-align: center;
-      font-size: 1.8em;
-      margin-top: 40px;
+      background-color: #f8f9fa;
+    }
+    .what-we-do h2 {
+      font-size: 2em;
+      margin-bottom: 30px;
     }
     .services {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      padding: 20px;
+      flex-wrap: wrap;
+      gap: 40px;
     }
     .service {
-      width: 240px;
-      margin: 20px;
-      text-align: center;
+      max-width: 240px;
     }
     .service img {
-      height: 50px;
-      margin-bottom: 15px;
+      max-height: 40px;
+    }
+    .service h3 {
+      margin: 15px 0 10px;
     }
     footer {
       text-align: center;
       font-size: 0.8em;
-      padding: 30px 10px;
-      background-color: #f0f0f0;
-      color: #666;
+      padding: 20px;
+      color: #888;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="assets/logo.svg.png" alt="Blockchain Strategy Group Logo">
+    <img src="logo.png" alt="Blockchain Strategy Group Logo">
     <h1>Your Guide to Smarter Crypto Decisions</h1>
     <p class="subtitle">
       We help you navigate Web3 and protect your crypto assets with personalized wallet consulting, security guidance, and tax support. Whether you're new to crypto or looking to level up your cold storage game, we've got your back.
     </p>
-    <a href="#" class="cta">Book a Consultation</a>
+    <a class="cta" href="book.html">Book a Consultation</a>
   </header>
 
-  <section class="banner-section">
-    <div class="banner">
-      <img src="assets/consulting.svg.png" alt="Consulting" />
+  <section class="highlight-section">
+    <div class="highlight">
+      <img src="consulting.png" alt="Consulting" style="height: 30px;">
       <h3>Wallet Access</h3>
       <p>Too many people lose access due to weak backup habits. We help fix that.</p>
     </div>
-    <div class="banner">
-      <img src="assets/security-focused.svg.png" alt="Security" />
+    <div class="highlight">
+      <img src="security-focused.png" alt="Security" style="height: 30px;">
       <h3>Tricked by Scammers</h3>
       <p>Rug pulls and phishing attempts exploit poor security habits. We educate you.</p>
     </div>
-    <div class="banner">
-      <img src="assets/community.svg.png" alt="On-Ramp Confusion" />
+    <div class="highlight">
+      <img src="tax-compliance.png" alt="On-Ramp Confusion" style="height: 30px;">
       <h3>On-Ramp Confusion?</h3>
       <p>New crypto users struggle to separate noise from opportunity. We guide you.</p>
     </div>
   </section>
 
-  <h2 class="section-title">What We Do</h2>
-  <section class="services">
-    <div class="service">
-      <img src="assets/consulting.svg.png" alt="Consulting">
-      <h3>Consulting</h3>
-      <p>Expert guidance on blockchain and cryptocurrency.</p>
-    </div>
-    <div class="service">
-      <img src="assets/wallet-setup.svg.png" alt="Wallet Setup">
-      <h3>Wallet Setup</h3>
-      <p>Safe and secure cryptocurrency storage solutions.</p>
-    </div>
-    <div class="service">
-      <img src="assets/security-focused.svg.png" alt="Security">
-      <h3>Security Services</h3>
-      <p>Workshops and audits on wallet security and phishing prevention.</p>
-    </div>
-    <div class="service">
-      <img src="assets/crypto-tax.svg.png" alt="Tax">
-      <h3>Tax & Compliance</h3>
-      <p>Education and tools for reporting crypto activity.</p>
-    </div>
-    <div class="service">
-      <img src="assets/community.svg.png" alt="Community">
-      <h3>Community</h3>
-      <p>Private Discord group, AMAs, and peer education with Web3 leaders.</p>
+  <section class="what-we-do">
+    <h2>What We Do</h2>
+    <div class="services">
+      <div class="service">
+        <img src="consulting.png" alt="Consulting">
+        <h3>Consulting</h3>
+        <p>Expert guidance on blockchain and cryptocurrency. Helping you safely move assets off exchanges and into your control.</p>
+      </div>
+      <div class="service">
+        <img src="wallet-setup.png" alt="Wallet Setup">
+        <h3>Wallet Setup</h3>
+        <p>Safe and secure cryptocurrency storage solutions—from MetaMask to Ledger, we help get you set up right.</p>
+      </div>
+      <div class="service">
+        <img src="security-focused.png" alt="Security Services">
+        <h3>Security Services</h3>
+        <p>Workshops and audits on wallet security and phishing prevention. Make sure you’re protected.</p>
+      </div>
+      <div class="service">
+        <img src="crypto-tax.png" alt="Tax & Compliance">
+        <h3>Tax & Compliance</h3>
+        <p>Education and tools for reporting crypto activity. Sync with tools like CoinTracker or TokenTax.</p>
+      </div>
+      <div class="service">
+        <img src="community.png" alt="Community">
+        <h3>Community</h3>
+        <p>Private Discord group, AMAs, and peer education with Web3 leaders. Stay tuned for our upcoming Twitch channel.</p>
+      </div>
     </div>
   </section>
 
@@ -159,12 +161,4 @@
     &copy; 2025 Blockchain Strategy Group. All rights reserved. This is not financial advice. We do not manage or make trades on behalf of our clients.
   </footer>
 </body>
-</html>
-
-  </section>
-  <footer>
-    <p>&copy; 2025 Blockchain Strategy Group. All rights reserved. This is not financial advice. We do not manage or make trades on behalf of our clients.</p>
-  </footer>
-</body>
-
 </html>
