@@ -30,44 +30,16 @@
       font-size: 1.1em;
       color: #444;
     }
-.cta {
-  background-color: #0f1a3c;
-  color: #fff;
-  padding: 20px 40px;
-  font-size: 1.3em;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 6px;
-  display: inline-block;
-  margin: 30px auto;
-}
-
-    .highlight-section {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-      margin: 40px auto;
-      max-width: 1000px;
-    }
-    .highlight {
+    .cta {
       background-color: #0f1a3c;
-      color: white;
-      padding: 25px;
-      border-radius: 10px;
-      flex: 1;
-      min-width: 260px;
-      max-width: 300px;
-      text-align: left;
-    }
-    .highlight h3 {
-      font-size: 1.2em;
-      margin: 0 0 10px;
-    }
-    .highlight p {
-      font-size: 0.95em;
-      color: #dcdcdc;
-      line-height: 1.4em;
+      color: #fff;
+      padding: 20px 40px;
+      font-size: 1.3em;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      display: inline-block;
+      margin: 30px auto;
     }
     .what-we-do {
       padding: 50px 20px;
@@ -86,12 +58,19 @@
     }
     .service {
       max-width: 240px;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
     }
     .service img {
       max-height: 40px;
     }
     .service h3 {
       margin: 15px 0 10px;
+    }
+    .service p {
+      font-size: 0.95em;
+      color: #333;
     }
     footer {
       text-align: center;
@@ -111,56 +90,40 @@
     <a class="cta" href="book.html">Book a Consultation</a>
   </header>
 
- <section class="highlight-section" style="background-color: #f5f5f5; padding: 50px 20px;">
-  <div style="display: flex; justify-content: center; gap: 25px; flex-wrap: wrap; max-width: 1000px; margin: auto;">
-    <div style="background: #ffffff; border-radius: 10px; padding: 25px 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); max-width: 300px; flex: 1; min-width: 260px;">
-      <h3 style="margin-top: 0; color: #1a1a1a;">Wallet Access</h3>
-      <p style="color: #333333;">Too many people lose access due to weak backup habits. We help fix that.</p>
-    </div>
-    <div style="background: #ffffff; border-radius: 10px; padding: 25px 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); max-width: 300px; flex: 1; min-width: 260px;">
-      <h3 style="margin-top: 0; color: #1a1a1a;">Tricked by Scammers</h3>
-      <p style="color: #333333;">Rug pulls and phishing attempts exploit poor security habits. We educate you.</p>
-    </div>
-    <div style="background: #ffffff; border-radius: 10px; padding: 25px 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); max-width: 300px; flex: 1; min-width: 260px;">
-      <h3 style="margin-top: 0; color: #1a1a1a;">On-Ramp Confusion?</h3>
-      <p style="color: #333333;">New crypto users struggle to know where to buy certain crypto. We guide you.</p>
-    </div>
-  </div>
-</section>
-
-
   <section class="what-we-do">
     <h2>What We Do</h2>
     <div class="services">
-      <div class="services">
-  <a href="consulting.html" class="service" style="text-decoration: none; color: inherit;">
-    <img src="consulting.png" alt="Consulting">
-    <h3>Consulting</h3>
-    <p>Expert guidance on blockchain and cryptocurrency. Helping you safely move assets off exchanges and into your control.</p>
-  </a>
-  <a href="wallet-setup.html" class="service" style="text-decoration: none; color: inherit;">
-    <img src="wallet-setup.png" alt="Wallet Setup">
-    <h3>Wallet Setup</h3>
-    <p>Safe and secure cryptocurrency storage solutions—from MetaMask to Ledger, we help get you set up right.</p>
-  </a>
-  <a href="security-services.html" class="service" style="text-decoration: none; color: inherit;">
-    <img src="security-focused.png" alt="Security Services">
-    <h3>Security Services</h3>
-    <p>Workshops and audits on wallet security and phishing prevention. Make sure you’re protected.</p>
-  </a>
-  <a href="tax-compliance.html" class="service" style="text-decoration: none; color: inherit;">
-    <img src="crypto-tax.png" alt="Tax & Compliance">
-    <h3>Tax & Compliance</h3>
-    <p>Education and tools for reporting crypto activity. Sync with tools like CoinTracker or TokenTax.</p>
-  </a>
-  <a href="community.html" class="service" style="text-decoration: none; color: inherit;">
-    <img src="community.png" alt="Community">
-    <h3>Community</h3>
-    <p>Private Discord group, AMAs, and peer education with Web3 leaders. Stay tuned for our upcoming Twitch channel.</p>
-  </a>
-</div>
+      <a href="consulting.html" class="service">
+        <img src="consulting.png" alt="Consulting">
+        <h3>Consulting</h3>
+        <p>Expert guidance on blockchain and cryptocurrency. Helping you safely move assets off exchanges and into your control.</p>
+      </a>
+      <a href="wallet-setup.html" class="service">
+        <img src="wallet-setup.png" alt="Wallet Setup">
+        <h3>Wallet Setup</h3>
+        <p>Safe and secure cryptocurrency storage solutions—from MetaMask to Ledger, we help get you set up right.</p>
+      </a>
+      <a href="security-services.html" class="service">
+        <img src="security-focused.png" alt="Security Services">
+        <h3>Security Services</h3>
+        <p>Workshops and audits on wallet security and phishing prevention. Make sure you’re protected.</p>
+      </a>
+      <a href="tax-compliance.html" class="service">
+        <img src="crypto-tax.png" alt="Tax & Compliance">
+        <h3>Tax & Compliance</h3>
+        <p>Education and tools for reporting crypto activity. Sync with tools like CoinTracker or TokenTax.</p>
+      </a>
+      <a href="community.html" class="service">
+        <img src="community.png" alt="Community">
+        <h3>Community</h3>
+        <p>Private Discord group, AMAs, and peer education with Web3 leaders. Stay tuned for our upcoming Twitch channel.</p>
+      </a>
+    </div>
+  </section>
+
   <footer>
     &copy; 2025 Blockchain Strategy Group. All rights reserved. This is not financial advice. We do not manage or make trades on behalf of our clients.
   </footer>
 </body>
 </html>
+
